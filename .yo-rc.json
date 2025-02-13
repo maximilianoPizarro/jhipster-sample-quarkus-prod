@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "backendType": "Quarkus",
+    "baseName": "jhipsterSampleQuarkusProd",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "3.4.0"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "vue",
+    "clientPackageManager": "npm",
+    "creationTimestamp": 1739459251228,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": [],
+    "gitCompany": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "8.8.0",
+    "languages": ["en"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageFolder": "com/mycompany/myapp",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "skipCommitHook": true,
+    "testFrameworks": [],
+    "useSass": true,
+    "websocket": false,
+    "withAdminUi": true
+  },
+  "git-company": "maximilianoPizarro",
+  "git-provider": "GitHub",
+  "repository-name": "jhipster-sample-quarkus-prod"
+}

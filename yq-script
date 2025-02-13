@@ -1,0 +1,3 @@
+#!/bin/sh
+yq -Yi '(.spec.params[] | select(.name == "GIT_REPO").value) |="https://github.com/maximilianoPizarro/jhipster-sample-quarkus-prod"' pipeline-run.yaml
+yq -Yi '(.spec.params[] | select(.name == "APP_JAR_VERSION").value) |="jhipster-sample-quarkus-prod-1.0.0-SNAPSHOT-runner.jar"' pipeline-run.yaml
