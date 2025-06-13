@@ -7,7 +7,11 @@ bracketSameLine: false
 plugins:
   - prettier-plugin-packagejson
   - prettier-plugin-java
+  - prettier-plugin-java
 overrides:
+  - files: "*.java"
+    options:
+      tabWidth: 4
   - files: "*.java"
     options:
       tabWidth: 4
